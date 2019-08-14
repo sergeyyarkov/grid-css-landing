@@ -1,12 +1,12 @@
-@media (max-width: 1170px) {
-    #our-clients .our-clients_content {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-@media (max-width: 1140px) {
+@media (max-width: 1200px) {
     #our-work .our-work_content {
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 10px;
+    }
+}
+@media (max-width: 1170px) {
+    #our-clients .our-clients_content {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
 @media (max-width: 991px) {
