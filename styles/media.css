@@ -1,0 +1,115 @@
+@media (max-width: 1170px) {
+    #our-clients .our-clients_content {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (max-width: 1140px) {
+    #our-work .our-work_content {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+}
+@media (max-width: 991px) {
+    #about-us .computer-image {
+        display: none;
+    }
+    #about-us .about-us_content {
+        grid-template-columns: 1fr;
+    }
+    #contact-us {
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+}
+@media (max-width: 900px) {
+    header {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    #first .title-page {
+        margin-top: 140px;
+    }
+    #our-services .our-services_content {
+        grid-template-columns: 1fr 1fr;
+    }
+    #our-team .our-team_content {
+        grid-template-columns: 1fr 1fr;
+    }
+    #our-team .our-team_person {
+        margin-top: 25px;
+    }
+    #our-services .our-services_feature {
+        margin-top: 25px;
+    }
+    #our-clients {
+        padding-bottom: 120px;
+    }
+    #our-work .our-work_content {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 100px;
+    }
+    #first .header-content {
+        margin-top: 15px;
+    }
+}
+@media (max-width: 768px) {
+    #our-clients .our-clients_content {
+        grid-template-columns: 1fr 1fr;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #contact-us {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+@media (max-width: 600px) {
+    ul li {
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+        margin-left: 0;
+    }
+    #first .title-page {
+        margin-top: 45px;
+    }
+    ul li:nth-child(1) {
+        border-bottom: none;
+    }
+    #first .title-page h1 {
+        font-size: 38px;
+    }    
+}
+@media (max-width: 576px) {
+    #our-team .our-team_content {
+        grid-template-columns: 1fr;
+    }
+    #our-services .our-services_content {
+        grid-template-columns: 1fr;
+    }
+    #our-clients .our-clients_content {
+        grid-template-columns: 1fr;
+        margin-top: 0;
+    }
+    #our-clients .our-client_logo {
+        margin-top: 15px;
+    }
+    #our-work .our-work_content {
+        grid-template-columns: 1fr;
+    }
+    #contact-us {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+@media (max-width: 420px) {
+    #contact-us .contact-us_content form {
+        display: block;
+    }
+    #contact-us .contact-us_content .input-email {
+        margin-top: 20px;
+    }
+    #contact-us .contact-us_content textarea {
+        margin-top: 30px;
+    }
+}
